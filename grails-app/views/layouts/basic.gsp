@@ -41,6 +41,17 @@
 								file="twitter_newbird_white.png" /> Follow Us...</a>
 					</li>
 				</ul>
+				
+				<g:if test="${session.user != null}">
+				<ul class="nav">
+				    <li>
+				        <a>
+				            Welcome ${session.user }
+				        </a>
+				    </li>
+				</ul>
+				</g:if>
+				
 				<ul class="nav pull-right">
 
 					<li>
