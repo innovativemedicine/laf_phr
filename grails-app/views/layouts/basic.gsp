@@ -54,6 +54,9 @@
 				
 				<ul class="nav pull-right">
 
+                    <li>
+                        <a class="satellite appIM" title="mountsinai-phr.ca" href="http://innovativemedicine.ca"> | PHR Portal</a>
+                    </li>
 					<li>
 						<a class="satellite appIM" title="innovativemedicine.ca" href="http://innovativemedicine.ca"> | Innovative Medicine</a>
 					</li>
