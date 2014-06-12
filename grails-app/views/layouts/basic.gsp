@@ -107,10 +107,10 @@
 		</g:if>
 		<g:else>
 
-			<h1>
+			<%--<h1>
 				${pageProperty(name:'title').replaceAll("- ${grailsApplication.config.laf.siteTitle}","")}
-			</h1>
-
+			</h1>--%>
+		
 		</g:else>
 
 
