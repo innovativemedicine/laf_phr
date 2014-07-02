@@ -24,6 +24,9 @@
 <g:render template="/layouts/style" />
 
 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src='../bootstrap-2.3.2/js/bootstrap.js'></script>
+
 
 </head>
 <body>
@@ -46,7 +49,7 @@
 				<ul class="nav">
 				    <li>
 				        <a>
-				            Welcome ${session.user }
+				            Welcome ${session.user.userName }
 				        </a>
 				    </li>
 				</ul>
