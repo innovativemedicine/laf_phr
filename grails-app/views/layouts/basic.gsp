@@ -13,6 +13,10 @@
 <r:require modules="app" />
 <link rel="shortcut icon" href="${r.resource(dir:"images/custom/app.ico")}" type="image/x-icon">
 
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src='../bootstrap-2.3.2/js/bootstrap.js'></script>
+
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title><g:layoutTitle default="" /> - ${grailsApplication.config.laf.siteTitle}</title>
@@ -22,10 +26,6 @@
 
 
 <g:render template="/layouts/style" />
-
-
-<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-<script src='../bootstrap-2.3.2/js/bootstrap.js'></script>
 
 
 </head>
