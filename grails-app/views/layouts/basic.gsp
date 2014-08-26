@@ -98,10 +98,11 @@
 
 		<div id="alerts"></div>
 		<g:if test="${flash.message}">
-			<div class="alert alert-block alert-error fade in">
+			<%--<div class="alert alert-block alert-error fade in">
 				<strong> ${flash.message}</strong>
 				<!--  ${flash.message = null} -->
 			</div>
+		    --%>
 		</g:if>
 
 

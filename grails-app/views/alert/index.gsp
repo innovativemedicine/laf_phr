@@ -36,7 +36,7 @@
     	   }
     }
 </script>
-
+<!-- 
 <div id="staticAlerts">
 
 
@@ -62,7 +62,7 @@
         <div class="alert alert-block alert-info fade in" style="display: none;">some application alert</div>
     </div>
 </div>
-
+-->
 
 
 <!--
