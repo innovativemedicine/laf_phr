@@ -52,6 +52,9 @@
 				            Welcome ${session.user.userName }
 				        </a>
 				    </li>
+				    <li>
+				        <a href="/login/logout">Logout</a>
+				    </li>
 				</ul>
 				</g:if>
 				
